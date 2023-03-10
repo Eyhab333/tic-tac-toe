@@ -107,9 +107,6 @@ main {
       text-align: center;
       letter-spacing: 1px;
       text-transform: uppercase;
-
-      /* Silver */
-
       color: #a8bfc9;
       margin-bottom: 24px;
     }
@@ -182,12 +179,128 @@ main {
     .vs-player {
       background: #31c3bd;
       box-shadow: inset 0px -8px 0px #118c87;
-      
     }
   }
 }
 /*##### for-phone-only ##########*/
 @media (max-width: 599px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 119px 24px;
+
+    .logo {
+      height: 32px;
+      width: 71.97039794921875px;
+      margin-bottom: 40px;
+    }
+
+    .container-pick {
+      width: 100%;
+      background: #1f3641;
+      box-shadow: inset 0px -8px 0px #10212a;
+      border-radius: 15px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+
+      h1 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #a8bfc9;
+        margin-bottom: 24px;
+      }
+
+      .marks-container {
+        background: #1a2a33;
+        border-radius: 10px;
+        padding: 9px;
+        height: 72px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 17px;
+
+        .x-container,
+        .o-container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 50%;
+        }
+
+        .x {
+          height: 32px;
+          width: 32px;
+        }
+
+        .o {
+          height: 31.741201400756836px;
+          width: 31.741201400756836px;
+          
+        }
+
+        .o-container {
+          background: #a8bfc9;
+          border-radius: 10px;
+          padding-top: 11px;
+          padding-bottom: 11px;
+        }
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.875px;
+        color: #a8bfc9;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+
+      .vs-cpu,
+      .vs-player {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        color: #1a2a33;
+        border-radius: 15px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        width: 100%;
+      }
+
+      .vs-cpu {
+        background: #f2b137;
+        box-shadow: inset 0px -8px 0px #cc8b13;
+        margin-bottom: 20px;
+      }
+
+      .vs-player {
+        background: #31c3bd;
+        box-shadow: inset 0px -8px 0px #118c87;
+      }
+    }
+  }
 }
 
 /*############ for-tablet-portrait-up ##############*/
