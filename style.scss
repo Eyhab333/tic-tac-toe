@@ -119,7 +119,16 @@ main {
       width: 412px;
       display: flex;
       align-items: center;
+      justify-content: space-between;
       margin-bottom: 17px;
+
+      .x-container,
+      .o-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+      }
 
       .x {
         height: 32px;
@@ -129,6 +138,13 @@ main {
       .o {
         height: 31.741201400756836px;
         width: 31.741201400756836px;
+      }
+
+      .o-container {
+        background: #a8bfc9;
+        border-radius: 10px;
+        padding-top: 11px;
+        padding-bottom: 11px;
       }
     }
 
@@ -245,7 +261,6 @@ main {
         .o {
           height: 31.741201400756836px;
           width: 31.741201400756836px;
-          
         }
 
         .o-container {

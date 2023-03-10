@@ -113,7 +113,15 @@ main .container-pick .marks-container {
   width: 412px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 17px;
+}
+main .container-pick .marks-container .x-container,
+main .container-pick .marks-container .o-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 main .container-pick .marks-container .x {
   height: 32px;
@@ -122,6 +130,12 @@ main .container-pick .marks-container .x {
 main .container-pick .marks-container .o {
   height: 31.7412014008px;
   width: 31.7412014008px;
+}
+main .container-pick .marks-container .o-container {
+  background: #a8bfc9;
+  border-radius: 10px;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 main .container-pick p {
   font-weight: 500;
